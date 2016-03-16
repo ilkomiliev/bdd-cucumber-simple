@@ -132,6 +132,7 @@
                             <projectName>BDD</projectName>
                             <outputDirectory>${project.build.directory}/site/cucumber-reports</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+                            <!-- this can be set to true if flash plugin is installed in browser -->
                             <enableFlashCharts>false</enableFlashCharts>
                             <buildNumber>${jenkins.buildnr}</buildNumber>
                             <checkBuildResult>false</checkBuildResult>
