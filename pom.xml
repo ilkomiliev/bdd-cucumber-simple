@@ -73,23 +73,6 @@
         <groupId>net.masterthought</groupId>
         <artifactId>cucumber-reporting</artifactId>
         <version>${cucumber.reporting.version}</version>
-        <exclusions>
-            <!--
-                conflicts with the newer version required by cucumber-guice
-                guice provides currently 16.0.1 which works ok for both cucumber-guice
-                and cucumber-reporting
-            -->
-            <exclusion>
-                <groupId>com.google.guava</groupId>
-                <artifactId>guava</artifactId>
-            </exclusion>
-        </exclusions>
-    </dependency>
-
-    <dependency>
-        <groupId>com.google.guava</groupId>
-        <artifactId>guava</artifactId>
-        <version>16.0.1</version>
     </dependency>
 
     </dependencies>
